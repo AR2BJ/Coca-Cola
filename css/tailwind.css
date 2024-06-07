@@ -1,0 +1,114 @@
+@font-face {
+	font-family: "tccc-regular";
+	src: url("../font/eot/TCCC-UnityText Regular.eot");
+	src: local("TCCC-UnityText Regular"),
+		url("../font/eot/TCCC-UnityText Regular.eot?#iefix")
+			format("embedded-opentype"),
+		url("../font/woff2/TCCC-UnityText Regular.woff2") format("woff2"),
+		url("../font/woff/TCCC-UnityText Regular.woff") format("woff"),
+		url("../font/ttf/TCCC-UnityText Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "tccc-bold";
+	src: url("../font/eot/TCCC-UnityText Bold.eot");
+	src: local("TCCC-UnityText Bold"),
+		url("../font/eot/TCCC-UnityText Bold.eot?#iefix")
+			format("embedded-opentype"),
+		url("../font/woff2/TCCC-UnityText Bold.woff2") format("woff2"),
+		url("../font/woff/TCCC-UnityText Bold.woff") format("woff"),
+		url("../font/ttf/TCCC-UnityText Bold.ttf") format("truetype");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+img {
+	animation: opacity 0.4s ease 0s 1;
+}
+
+span.swiper-pagination-bullet {
+	width: 18px;
+	height: 18px;
+	background-color: transparent;
+	margin-top: 24px !important;
+	border: 1px solid #8b8b8b;
+	opacity: 1 !important;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+span.swiper-pagination-bullet-active {
+	border-color: #000;
+}
+
+span.swiper-pagination-bullet-active::after {
+	content: "";
+	width: 10px;
+	height: 10px;
+	background-color: #000;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.top-\[75px\] {
+	top: 75px;
+}
+
+.top-12 {
+	top: 3rem;
+}
+
+.top-\[3\.46rem\] {
+	top: 3.46rem;
+}
+
+.mt-\[3\.46rem\] {
+	margin-top: 3.46rem;
+}
+
+.text-4xl {
+	font-size: 2.25rem;
+	line-height: 2.5rem;
+}
+
+.opacity-100 {
+	opacity: 1;
+}
+
+.bg-\[\#b59e74\] {
+	--tw-bg-opacity: 1;
+	background-color: rgb(181 158 116 / var(--tw-bg-opacity));
+}
+
+.\!outline-black {
+	outline-color: #000 !important;
+}
+
+@keyframes opacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@media (min-width: 1024px) {
+	span.swiper-pagination-bullet {
+		margin-top: 32px !important;
+	}
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
